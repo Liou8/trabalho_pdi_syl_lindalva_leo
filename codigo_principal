@@ -1,0 +1,24 @@
+%Codigo Principal:
+%Proposta:
+%O trabalho deve ser realizado utilizando o Octave para realce de uma imagem (da Oficina do IFCE campus Maracanau) utilizando os exemplos apresentados em sala de aula
+%Obs> Nao colocar acentos porque da bug no OCTAVE
+
+%Descricao de cada variavel:
+
+%I : Contem a imagem principal 
+
+
+% Limpeza dos dados:
+
+clear all, clc, close all;
+
+
+% Load do pacote de funcoes de imagem:
+
+pkg load img;
+
+
+% Load da Imagem:
+
+I = imread("Nome_da_imagem.jpg");
+
