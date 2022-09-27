@@ -4,9 +4,10 @@
 %PROF. DANIEL BRITO
 
 %TRABALHO PDI
-clc
-clear all
-pkg load image     %roda biblioteca
+clc;                %Apaga as linhas da janela de comando
+clear all;          %
+close all;          %
+pkg load image;     %Roda biblioteca
 
 %leitura da imagem
 Imagem = imread("PDI.jpg");
